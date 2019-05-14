@@ -3,4 +3,5 @@ def oxford_comma(array)
   array.each do |str|
     string <<'#{str}'
   end
+  return string
 end
