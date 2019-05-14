@@ -3,5 +3,5 @@ def oxford_comma(array)
   array.each do |fruit|
     str<<fruit
   end
-  
+  str
 end
