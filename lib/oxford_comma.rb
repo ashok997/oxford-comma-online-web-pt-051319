@@ -1,5 +1,5 @@
 def oxford_comma(array)
   str =array.fetch(-1)
-  str = "and"<<" str"
+  str2 = "and"<<" #{str}"
 end
  
