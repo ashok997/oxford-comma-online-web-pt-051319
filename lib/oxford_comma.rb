@@ -1,4 +1,4 @@
 def oxford_comma(array)
-  for each
+  array.each do 
   
 end
