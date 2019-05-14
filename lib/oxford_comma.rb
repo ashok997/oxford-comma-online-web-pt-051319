@@ -1,7 +1,5 @@
 def oxford_comma(array)
-  str =""
-  array.each do |fruit|
-    str<<"#{fruit}"
- 
-end end
+  str =array.fetch[-1]
   str
+end
+ 
