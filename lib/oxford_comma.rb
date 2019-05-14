@@ -3,5 +3,6 @@ def oxford_comma(array)
   str2 = "and"<<" #{str}"
   array.pop
   array<<str2
+  array.split
 end
  
