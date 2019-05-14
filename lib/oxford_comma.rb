@@ -1,5 +1,6 @@
 def oxford_comma(array)
+  string =""
   array.each do |str|
-    puts "#{str}"
+    string << "#{str}"
   end
 end
