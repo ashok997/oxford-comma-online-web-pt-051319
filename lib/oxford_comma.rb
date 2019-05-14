@@ -1,3 +1,4 @@
 def oxford_comma(array)
-  array.fetch[-1]
+  str = "and"
+  str << array.fetch[-1]
 end
