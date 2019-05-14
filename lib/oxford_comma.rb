@@ -1,4 +1,7 @@
 def oxford_comma(array)
-  str = "and"
-  str<<#{array.fetch[-1]}
+  str =""
+  array.each do |fruit|
+    str<<"#{fruit}"
+  end
+  str
 end
